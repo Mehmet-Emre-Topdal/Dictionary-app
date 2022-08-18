@@ -1,0 +1,69 @@
+.card{
+    margin-top:50px;
+}
+
+.result-container{
+    margin-bottom: 40px;
+}
+
+#word{
+    font-size: xx-large;
+}
+
+.result-header{
+    margin-bottom: 20px;
+}
+
+.meaning-header{
+    font-weight: bold;
+}
+
+.meanings{
+    gap:15px;
+}
+
+
+.error-showcase p{
+    font-size: x-large ;
+}
+
+button{
+    cursor: pointer;
+}
+
+.f-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-between-column{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-transparent{
+    border: none;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .card{
+        width:90%;
+    }
+
+}
